@@ -23,3 +23,10 @@ console.log(`Updated account balance: $${accountBalance}`);
 //Task 4: String Data Type
 let customerName = "Le"
 console.log("Welcome ".concat(customerName))
+
+//Task 5: Boolean Data Type
+let isLoggedIn = true
+let hasPermission = false
+console.log(`Full access: ${isLoggedIn && hasPermission}`)
+console.log(`Partial access: ${isLoggedIn || hasPermission}`)
+console.log(`Denied access: ${!hasPermission}`)
