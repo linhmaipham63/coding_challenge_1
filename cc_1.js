@@ -19,3 +19,7 @@ let accountBalance = 23000;
 accountBalance += 5000;  
 accountBalance = (accountBalance*2)/4 -2000;
 console.log(`Updated account balance: $${accountBalance}`);
+
+//Task 4: String Data Type
+let customerName = "Le"
+console.log("Welcome ".concat(customerName))
