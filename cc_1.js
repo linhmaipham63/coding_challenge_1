@@ -13,3 +13,9 @@ var isAvailable = true;
 console.log(`Product Name: ${productName} - Type: ${typeof productName}`);
 console.log(`Product Price: $${productPrice} - Type: ${typeof productPrice}`);
 console.log(`Is Available? ${isAvailable} - Type: ${typeof isAvailable}`);
+
+//Task 3: Number Data Type
+let accountBalance = 23000;  
+accountBalance += 5000;  
+accountBalance = (accountBalance*2)/4 -2000;
+console.log(`Updated account balance: $${accountBalance}`);
